@@ -24,14 +24,14 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/public_html/index.html">BaloZone</a>
+        <a class="navbar-brand" href="../index.html">BaloZone</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarMain">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link active" href="/public_html/index.html">Trang chủ</a></li>
-            <li class="nav-item"><a class="nav-link" href="/public_html/pages/list.html">Sản phẩm</a></li>
+            <li class="nav-item"><a class="nav-link active" href="../index.html">Trang chủ</a></li>
+            <li class="nav-item"><a class="nav-link" href="../pages/list.html">Sản phẩm</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Loại balo</a>
               <ul class="dropdown-menu">
@@ -59,7 +59,7 @@
       <div class="card-body">
         <h5 class="card-title">Balo Du Lịch</h5>
         <p class="card-text">Mô tả chi tiết về sản phẩm, chất liệu, kích thước, và các thông tin khác.</p>
-        <a href="/public_html/index.html" class="btn btn-secondary">Quay lại</a>
+        <a href="../index.html" class="btn btn-secondary">Quay lại</a>
       </div>
     </div>
   </div>
@@ -90,7 +90,7 @@
         cardImage.src = productData.image;
       } else {
         alert('No product data found in local storage.');
-        window.location.href = '/public_html/index.html';
+        window.location.href = '../index.html';
       }
       window.localStorage.removeItem('productData');
     });
